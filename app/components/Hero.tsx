@@ -10,13 +10,13 @@ const Hero = () => {
 
     return (
         <>
-            <section className="w-full bg-gradient-to-b from-blue-800 to-blue-100 text-white min-h-screen flex items-center justify-center font-sans">
+            <section className="w-full bg-gradient-to-b from-blue-800 to-blue-100 min-h-screen flex items-center justify-center font-sans">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-12 text-center md:text-left">
                     <div className="md:w-1/2">
-                        <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4">
+                        <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4 [text-shadow:1px_1px_3px_rgb(0_0_0_/_0.4)]">
                             Reinsure Smarter: Cut GIC Costs by 40% with AI Simulations
                         </h1>
-                        <h2 className="text-xl md:text-2xl text-gray-300 mb-8">
+                        <h2 className="text-xl md:text-2xl text-gray-200 mb-8 [text-shadow:1px_1px_3px_rgb(0_0_0_/_0.4)]">
                             For property managers at ICICI Lombard—forecast flood risks instantly, bypass brokers, and auto-pay claims in hours. End the mandatory cession nightmare.
                         </h2>
                         <button 
@@ -25,14 +25,14 @@ const Hero = () => {
                         >
                             Start Free Risk Simulation
                         </button>
-                        <p className="text-sm mt-4 text-gray-200">
+                        <p className="text-sm mt-4 text-gray-500 font-medium">
                             Rs 5,000 Cr lost yearly to GIC inefficiencies (Moneycontrol).
                         </p>
-                        <p className="text-sm italic mt-2 text-gray-200">
+                        <p className="text-sm italic mt-2 text-gray-500 font-medium">
                             "Saved Rs 2 Cr on cyclone treaties—game-changer!" — ICICI Property Lead
                         </p>
                     </div>
-                    <div className="md:w-1/2 mt-10 md:mt-0">
+                    <div className="md:w-1/2 mt-10 md:mt-0 md:ml-12">
                         <svg className="w-full h-auto" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect width="400" height="300" rx="8" fill="#EFF6FF"/>
                             <rect x="20" y="20" width="360" height="40" rx="4" fill="#D1D5DB"/>
