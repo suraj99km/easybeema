@@ -20,7 +20,19 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EFF6FF; /* equivalent to blue-50 */
+  font-family: 'Inter', sans-serif;
+  color: #1f2937; /* gray-800 */
+}
+
+/* For smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Simple CSS arrow for dividers */
+.arrow-divider::after {
+  content: '→';
+  font-size: 2rem;
+  color: #93c5fd; /* blue-300 */
 }
