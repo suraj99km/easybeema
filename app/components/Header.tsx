@@ -21,7 +21,7 @@ const Header = () => {
                         <div className="text-2xl font-bold text-blue-800">EasyBeema</div>
                     </div>
                     <nav className="hidden md:flex space-x-6">
-                        <button onClick={() => scrollToSection('solution')} className="text-gray-600 hover:text-blue-800">How It Works</button>
+                        <button onClick={() => scrollToSection('how-it-works')} className="text-gray-600 hover:text-blue-800">How It Works</button>
                         <button onClick={() => scrollToSection('pricing')} className="text-gray-600 hover:text-blue-800">Pricing</button>
                         <button onClick={() => scrollToSection('contact')} className="text-gray-600 hover:text-blue-800">Contact</button>
                     </nav>
