@@ -31,7 +31,7 @@ const Hero = () => {
                         </button>
                     </div>
                     <div className="md:w-3/5 mt-10 md:mt-0 md:ml-12">
-                        <video className="rounded-lg shadow-2xl" autoPlay loop controls playsInline>
+                        <video id="video1" className="rounded-lg shadow-2xl" autoPlay loop muted controls playsInline>
                             <source src="/video1.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>

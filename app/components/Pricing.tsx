@@ -13,7 +13,7 @@ const Pricing = () => {
         <section id="pricing" className="py-16 md:py-20 bg-white">
                 <div className="container mx-auto px-6 text-center">
                     <div className="mb-12">
-                        <video className="rounded-lg shadow-2xl mx-auto" autoPlay loop muted playsInline>
+                        <video id="video2" className="rounded-lg shadow-2xl mx-auto" loop controls playsInline>
                             <source src="/video2.mp4" type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
