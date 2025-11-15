@@ -16,8 +16,8 @@ export default function Home() {
       <Problem />
       <AIAdvantage />
       <SocialProof />
-      <Pricing />
       <HowItWorks />
+      <Pricing />
       <Footer />
       <StickyCTA />
     </main>
