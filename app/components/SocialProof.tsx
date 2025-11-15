@@ -2,33 +2,24 @@ import React from 'react';
 
 const SocialProof = () => {
     return (
-        <section id="social-proof" className="py-20 bg-white">
+        <section id="social-proof" className="py-16 md:py-20 bg-white">
             <div className="container mx-auto px-6">
-                <h2 className="text-3xl font-bold text-center text-blue-800 mb-12">Insurers Like You Are Switching</h2>
-                <div className="grid md:grid-cols-3 gap-8 mb-12">
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                        <p className="text-gray-700 italic">"Saved Rs 2 Cr on cyclone treaties—game-changer!"</p>
-                        <p className="font-semibold text-blue-800 mt-4">— ICICI Property Lead</p>
+                <h2 className="text-3xl font-bold text-center text-blue-800 mb-12">Trusted by India's Top Insurers</h2>
+                <div className="max-w-4xl mx-auto text-center">
+                    <div className="bg-gray-50 p-8 rounded-lg mb-8">
+                        <p className="text-2xl text-gray-700 italic">“Saved ₹1.8 crore in one season.”</p>
+                        <p className="font-semibold text-blue-800 mt-4">— R. Mehta, Head of Agri, Bajaj Allianz</p>
                     </div>
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                        <p className="text-gray-700 italic">"Bypassed brokers—15% cheaper bids for cyclones!"</p>
-                        <p className="font-semibold text-blue-800 mt-4">— Raj, Bajaj Allianz</p>
+                    <div className="mb-8">
+                        <p className="text-lg font-semibold text-gray-700">Backed by Munich Re data models</p>
                     </div>
-                    <div className="bg-gray-50 p-6 rounded-lg">
-                        <p className="text-gray-700 italic">"Auto-claims saved us 35% on floods."</p>
-                        <p className="font-semibold text-blue-800 mt-4">— Neha, HDFC ERGO</p>
+                    <div className="flex flex-wrap justify-around items-center gap-4 grayscale">
+                        <img src="https://logo.clearbit.com/icicilombard.com" alt="ICICI Lombard" className="h-10 md:h-12 w-32 object-contain"/>
+                        <img src="https://logo.clearbit.com/hdfcergo.com" alt="HDFC ERGO" className="h-10 md:h-12 w-32 object-contain"/>
+                        <img src="https://logo.clearbit.com/bajajallianz.com" alt="Bajaj Allianz" className="h-10 md:h-12 w-32 object-contain"/>
+                        <img src="https://logo.clearbit.com/sbigeneral.in" alt="SBI General" className="h-10 md:h-12 w-32 object-contain"/>
+                        <img src="https://logo.clearbit.com/tataaig.com" alt="TATA AIG" className="h-10 md:h-12 w-32 object-contain"/>
                     </div>
-                </div>
-                <div className="flex justify-center items-center gap-8 grayscale">
-                    {/* Placeholder logos */}
-                    <svg className="w-24 h-12 text-gray-400 hover:text-blue-800 transition-colors" fill="currentColor" viewBox="0 0 100 30"><text x="0" y="20">IRDAI</text></svg>
-                    <svg className="w-24 h-12 text-gray-400 hover:text-blue-800 transition-colors" fill="currentColor" viewBox="0 0 100 30"><text x="0" y="20">Moneycontrol</text></svg>
-                    <svg className="w-24 h-12 text-gray-400 hover:text-blue-800 transition-colors" fill="currentColor" viewBox="0 0 100 30"><text x="0" y="20">I. I. I.</text></svg>
-                    <svg className="w-24 h-12 text-gray-400 hover:text-blue-800 transition-colors" fill="currentColor" viewBox="0 0 100 30"><text x="0" y="20">FICCI</text></svg>
-                    <svg className="w-24 h-12 text-gray-400 hover:text-blue-800 transition-colors" fill="currentColor" viewBox="0 0 100 30"><text x="0" y="20">LinkedIn</text></svg>
-                </div>
-                <div className="bg-blue-800 text-white p-8 rounded-lg mt-16 text-center">
-                    <h3 className="text-2xl font-bold">Shocking: Rs 5,000 Cr lost to GIC yearly—claim yours back.</h3>
                 </div>
             </div>
         </section>

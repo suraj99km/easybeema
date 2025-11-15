@@ -10,37 +10,31 @@ const Hero = () => {
 
     return (
         <>
-            <section className="w-full bg-gradient-to-b from-blue-800 to-blue-100 min-h-screen flex items-center justify-center font-sans">
+            <section className="w-full bg-gradient-to-b from-blue-800 to-blue-100 pb-12 md:pt-22 md:pb-24 flex items-center justify-center font-sans">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-12 text-center md:text-left">
-                    <div className="md:w-1/2">
-                        <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight mb-4 [text-shadow:1px_1px_3px_rgb(0_0_0_/_0.4)]">
-                            Reinsure Smarter: Cut GIC Costs by 40% with AI Simulations
+                    <div className="w-full md:w-1/2">
+                        <div className="flex flex-col items-center text-center mb-6">
+                            <img src="/logo.png" alt="EasyBeema Logo" className="h-24 mb-4"/>
+                            <span className="text-3xl font-bold text-white">EasyBeema</span>
+                        </div>
+                        <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight mb-4 [text-shadow:1px_1px_3px_rgb(0_0_0_/_0.4)]">
+                            Cut Reinsurance Costs by 40% in 90 Days
                         </h1>
-                        <h2 className="text-xl md:text-2xl text-gray-200 mb-8 [text-shadow:1px_1px_3px_rgb(0_0_0_/_0.4)]">
-                            For property managers at ICICI Lombard—forecast flood risks instantly, bypass brokers, and auto-pay claims in hours. End the mandatory cession nightmare.
+                        <h2 className="text-lg md:text-2xl text-gray-200 mb-8 [text-shadow:1px_1px_3px_rgb(0_0_0_/_0.4)]">
+                            AI-powered simulations, instant claims, global capital — for mid-sized insurers tired of reinsurer delays.
                         </h2>
-                        <button 
+                        <button
                             onClick={openModal}
                             className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105"
                         >
-                            Start Free Risk Simulation
+                            Get a Free Risk Simulation →
                         </button>
-                        <p className="text-sm mt-4 text-gray-500 font-medium">
-                            Rs 5,000 Cr lost yearly to GIC inefficiencies (Moneycontrol).
-                        </p>
-                        <p className="text-sm italic mt-2 text-gray-500 font-medium">
-                            "Saved Rs 2 Cr on cyclone treaties—game-changer!" — ICICI Property Lead
-                        </p>
                     </div>
-                    <div className="md:w-1/2 mt-10 md:mt-0 md:ml-12">
-                        <svg className="w-full h-auto" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="400" height="300" rx="8" fill="#EFF6FF"/>
-                            <rect x="20" y="20" width="360" height="40" rx="4" fill="#D1D5DB"/>
-                            <path d="M20 80H380" stroke="#9CA3AF" strokeWidth="2"/>
-                            <rect x="40" y="100" width="100" height="150" rx="4" fill="#A5B4FC"/>
-                            <rect x="160" y="120" width="100" height="130" rx="4" fill="#7C3AED"/>
-                            <rect x="280" y="90" width="80" height="160" rx="4" fill="#4F46E5"/>
-                        </svg>
+                    <div className="md:w-3/5 mt-10 md:mt-0 md:ml-12">
+                        <video className="rounded-lg shadow-2xl" autoPlay loop controls playsInline>
+                            <source src="/video1.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </section>
